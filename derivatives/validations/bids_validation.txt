@@ -1,6 +1,6 @@
 	[WARNING] SUBJECT_FOLDERS There are no subject directories (labeled "sub-*") in the root of this BIDS dataset.
 
-		/dataset_description.json
+		/dataset_description.json - rules.checks.dataset.SubjectFolders
 
 	Please visit https://neurostars.org/search?q=SUBJECT_FOLDERS for existing conversations about this issue.
 
@@ -12,7 +12,7 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -21,7 +21,7 @@ values.
 		/dataset_description.json - must be string
 
 Field description: Name of the dataset.
-
+ - rules.dataset_metadata.dataset_description
 
 		License
 		/dataset_description.json - must be string
@@ -31,17 +31,17 @@ The use of license name abbreviations is RECOMMENDED for specifying a license
 (see [Licenses](SPEC_ROOT/appendices/licenses.md)).
 The corresponding full license text MAY be specified in an additional
 `LICENSE` file.
-
+ - rules.dataset_metadata.dataset_description
 
 		Authors
 		/dataset_description.json - must be array
 
 Field description: List of individuals who contributed to the creation/curation of the dataset.
-
+ - rules.dataset_metadata.dataset_description
 		/dataset_description.json - must be array
 
 Field description: List of individuals who contributed to the creation/curation of the dataset.
-
+ - rules.dataset_metadata.dataset_authors
 
 	Please visit https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR for existing conversations about this issue.
 
